@@ -1,7 +1,7 @@
 from qunetsim.components import Host
 from qunetsim.components import Network
 from qunetsim.objects import Qubit
-from beyond_cringe import EQSNBackend
+from qunetsim.backends import EQSNBackend
 from time import perf_counter
 import numpy
 
